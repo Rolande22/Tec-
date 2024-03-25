@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Rolande's Fruit Market - Shop</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: lightpink;
+            color: paleorange;
+            min-height: 100vh;
+            position: relative;
+        }
+
+        header {
+            background-color: #f57c00;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            margin: 10px 0;
+            padding: 0;
+            color: black;
+        }
+        .logo {
+            display: inline-block;
+            margin-top: 10px; 
+            margin-left: 20px; 
+        }
+
+        .logo-image {
+            width: 60px;
+            height: 60px;
+            border-radius: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            padding: 10px 20px;
+            border-radius: 25px;
+            background-color: #ff9800;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+
+        nav ul li a:hover {
+            background-color: #f57c00;
+        }
+
+        section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .fruit {
+            display: inline-block;
+            margin: 0 10px;
+            text-align: center;
+        }
+
+        .fruit img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .fruit p {
+            margin: 0;
+        }
+
+        .delivery-container {
+            background-color: lightgray;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+
+        .delivery-container h2 {
+            margin-bottom: 20px;
+        }
+
+        .delivery-form label {
+            display: block;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .delivery-form input,
+        .delivery-form select {
+            width: calc(100% - 22px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        .delivery-form input[type="submit"] {
+            background-color: #f57c00;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .delivery-form input[type="submit"]:hover {
+            background-color: #e65100;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        footer ul {
+            list-style-type: none;
+            padding: 0;
+            display: inline-block;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        footer ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .btn {
+            background-color: #f57c00;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 25px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #e65100;
+        }
+
+        .fa-instagram {
+            background-color: #e4405f;
+            color: white;
+            padding: 12px;
+            border-radius: 50%;
+        }
+
+        .fa-youtube {
+            background-color: #ff0000;
+            padding: 12px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <a href="index.html" class="logo">
+            <img src="download.png" alt="Logo" class="logo-image">
+        </a>
+    <h1>Welcome to Rolande's Fruit Market</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="Contact us.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <div class="container">
+        <div class="fruit">
+            <img src="apples.jfif" alt="Apple">
+            <b><p>Apple</p></b><br>
+            <b><p>Rwf 300 each</p></b><br>
+            <button>Add to Cart</button><br>
+        </div>
+        <div class="fruit">
+            <img src="images.jfif" alt="Banana">
+            <b><p>Banana</p></b><br>
+            <b><p>RWF 100 each</p><br>
+            <button>Add to Cart</button>
+        </div>
+        <div class="fruit">
+            <img src="download.jfif" alt="Orange">
+            <b><p>Orange</p></b><br>
+            <b><p>RWF 500 each</p></b><br>
+            <button>Add to Cart</button>
+        </div>
+        <div class="fruit">
+            <img src="images (1).jfif" alt="Mango">
+            <b><p>Mango</p></b><br>
+            <b><p>RWF 400 each</p></b><br>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="delivery-container">
+            <h2>Delivery Details</h2>
+            <form class="delivery-form">
+                <label for="location">Delivery Location:</label>
+                <input type="text" id="location" name="location" required>
+
+                <label for="date">Delivery Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Delivery Time:</label>
+                <input type="time" id="time" name="time" required>
+                
+                <label for="phone">Phone Number (starting with 078):</label>
+                <input type="tel" id="phone" name="phone" pattern="078[0-9]{7}" required>
+                <div class="payment-options">
+                    <label for="payment">Payment Method:</label>
+                    <select id="payment" name="payment">
+                        <option value="mobile_money">Mobile Money</option>
+                        <option value="credit_card">Credit Card</option>
+                        <option value="debit_card">Debit Card</option>
+                <input type="submit" value="Place Order">
+
+                
+            </form>
+        </div>
+    </section>
+    
+    <footer>
+        <ul>
+            <li><a href="https://www.instagram.com/" class="fa fa-instagram"></a></li>
+            <li><a href="https://www.youtube.com/" class="fa fa-youtube"></a></li>
+        </ul>
+        <p>&copy; 2024 Rolande's Fruit Market. All rights reserved.</p>
+    </footer>
+</body>
+</html>
